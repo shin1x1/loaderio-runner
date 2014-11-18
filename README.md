@@ -19,7 +19,15 @@ You get API key in below link.
 
 https://heroku.loader.io/settings#api
 
-## 3. Run loaderio-runner command
+## 3. Install
+
+You install loaderio-runner command using composer.
+
+```
+$ composer global require 'shin1x1/loaderio-runner:dev-master'
+```
+
+## 4. Run loaderio-runner command
 
 You run loaderio-runner command with API key.
 
