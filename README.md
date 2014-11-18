@@ -1,5 +1,7 @@
 # loaderio-runner
 
+[![Build Status](https://travis-ci.org/shin1x1/loaderio-runner.svg?branch=master)](https://travis-ci.org/shin1x1/loaderio-runner)
+
 ## 1. Create test cases in loader.io
 
 You create test cases in loader.io site. Test case title is important. If you execute test case using loaderio-runner then you should start number and add dot(ex. 1.) in title.
