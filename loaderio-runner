@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__ . '/vendor/autoload.php';
+
+// token from args
+if ($argc < 2) {
+    die(sprintf('Usage: %s TOKEN' . PHP_EOL, $argv[0]));
+}
+$token = $argv[1];
+
+$client = new Shin1x1\LoaderIo\Client($token);
+
+$loader = new Shin1x1\LoaderIo\TestLoader($client);
+$results = $loader->load()->run();
+
+echo (new \Shin1x1\LoaderIo\ResultRender($results))->render();

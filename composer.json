@@ -1,0 +1,29 @@
+{
+    "name": "shin1x1/loaderio-runner",
+    "description": "Loader.io test runner",
+    "keywords": ["loader.io"],
+    "homepage": "https://github.com/shin1x1/loader-io-runner",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masashi Shinbara",
+            "email": "shin1x1@gmail.com",
+            "homepage": "https://github.com/shin1x1"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~5.0",
+        "monolog/monolog": "@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable",
+        "phake/phake": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shin1x1\\LoaderIo\\": "src/LoaderIo/"
+        }
+    },
+    "minimum-stability": "stable"
+}
