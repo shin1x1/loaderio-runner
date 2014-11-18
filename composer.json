@@ -2,7 +2,7 @@
     "name": "shin1x1/loaderio-runner",
     "description": "Loader.io test runner",
     "keywords": ["loader.io"],
-    "homepage": "https://github.com/shin1x1/loader-io-runner",
+    "homepage": "https://github.com/shin1x1/loaderio-runner",
     "license": "MIT",
     "authors": [
         {
@@ -25,5 +25,8 @@
             "Shin1x1\\LoaderIo\\": "src/LoaderIo/"
         }
     },
-    "minimum-stability": "stable"
+    "bin": [
+        "loaderio-runner"
+    ],
+    "minimum-stability": "dev"
 }
