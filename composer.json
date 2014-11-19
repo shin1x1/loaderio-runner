@@ -28,5 +28,5 @@
     "bin": [
         "loaderio-runner"
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
